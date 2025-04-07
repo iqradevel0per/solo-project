@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -79,18 +78,18 @@ class _AddProductScreenState extends State<AddProductScreen> {
                       pickedFile == null
                           ? Container(
                             height: 200,
-                            width: double.infinity,
+                            width: 200,
                             margin: EdgeInsets.only(top: 30),
                             padding: EdgeInsets.symmetric(horizontal: 20),
                             decoration: BoxDecoration(
                               color: Color.fromARGB(255, 193, 211, 242),
-                              borderRadius: BorderRadius.circular(0),
+                              borderRadius: BorderRadius.circular(100),
                             ),
                             child: Icon(Icons.camera_alt_outlined, size: 80),
                           )
                           : Container(
                             height: 200,
-                            width: double.infinity,
+                            width: 200,
                             margin: EdgeInsets.only(top: 30),
                             padding: EdgeInsets.all(10),
                             decoration: BoxDecoration(

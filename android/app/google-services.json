@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "638045156609",
+    "project_id": "solo-project-bdbef",
+    "storage_bucket": "solo-project-bdbef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638045156609:android:f41cca49e76fff3d9b5700",
+        "android_client_info": {
+          "package_name": "com.example.solo_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVNVa8zNFOTQYHvTR4ijOKCPhDnf0go9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
